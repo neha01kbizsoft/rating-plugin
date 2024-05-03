@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 MyPluginModule::Engine.routes.draw do
-  get "/examples" => "examples#index"
+  get "/rating_plugin/examples" => "examples#create"
   # define routes here
 end
 
