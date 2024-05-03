@@ -1,8 +1,4 @@
-# frozen_string_literal: true
-
-MyPluginModule::Engine.routes.draw do
-  get "/examples" => "examples#index"
-  # define routes here
+RatingPlugin::Engine.routes.draw do
+  get "/rating_plugin/examples" => "examples#create"
 end
 
-Discourse::Application.routes.draw { mount ::MyPluginModule::Engine, at: "my-plugin" }
