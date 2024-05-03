@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-RatingPlugin::Engine.routes.draw do
-  get "/rating_plugin/examples" => "examples#create"
-=======
-# frozen_string_literal: true
+# discourse-custom-plugin/config/routes.rb
 
-MyPluginModule::Engine.routes.draw do
-  get "/rating_plugin/examples" => "examples#create"
-  # define routes here
->>>>>>> a70f18ab945ee3a09c8488c2f096109008ef6493
+Discourse::Application.routes.append do
+  get '/custom_items' => 'discourse_custom_plugin/custom_items#index'
 end
-
