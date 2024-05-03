@@ -6,6 +6,6 @@
 # authors: kbiz Plugin Developer
 # url: https://github.com/neha01kbizsoft/rating-plugin.git
 
-
+register_asset 'stylesheets/feedback.css'
 
 
