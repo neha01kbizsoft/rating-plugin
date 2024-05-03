@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 module rating-plugin
   class DealsController < ::ApplicationController
-    def create
+    def index
       # Logic to create a deal by the user
       # Example:
       @deal = Deal.new(deal_params)
