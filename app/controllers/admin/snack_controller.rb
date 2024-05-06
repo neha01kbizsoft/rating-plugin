@@ -5,3 +5,4 @@ class Admin::SnackController < Admin::AdminController
   end
 
 end
+
